@@ -10,12 +10,15 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
   </head>
+  <!-- navbar -->
   <body class="container-lg">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#">BIKWZ</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -27,8 +30,8 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse fw-semibold" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -43,10 +46,104 @@
               </li>
             </ul>
 
-            <button class="btn btn-outline-success ms-5" type="submit">Login</button>
+            <button class="ms-5 btn btn-outline-success" type="submit">
+              Login
+            </button>
           </div>
         </div>
       </nav>
+      <!-- banner slider  -->
+      <div
+        id="carouselExample"
+        class="carousel slide bg-danger-subtle rounded bg-opacity-10 p-5 bikerz-zone-light-red"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div
+                class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+              >
+                <div>
+                  <h1>Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </p>
+                  <button class="btn btn-danger">Purchase</button>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img src="images/black-motorcycle-white.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div
+                class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+              >
+                <div>
+                  <h1>Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </p>
+                  <button class="btn btn-danger">Purchase</button>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img src="images/motorcycle-with-helmet.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div
+                class="col-12 col-md-6 d-flex justify-content-center align-items-center"
+              >
+                <div>
+                  <h1>Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </p>
+                  <button class="btn btn-danger">Purchase</button>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img src="images/red-motor-biking-road_114579-5071.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bikerz-zone-light-red"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bikerz-zone-light-red"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
 
     <main></main>
